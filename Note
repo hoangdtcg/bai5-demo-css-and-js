@@ -1,0 +1,31 @@
+CSS:
+- Cao
+- Rộng
+- Cỡ chữ
+- Màu sắc
+- Khoảng cách
+  - padding (trong)
+  - margin (ngoài)
+display: inline-block
+float: left;
+
+- Đơn vị px : pixel
+- Lưới điểm ảnh: 1920 x 1080.
+
+3 cách để CSS cho 1 trang web
+- inline: css cho 1 thẻ html
+- internal: css trong cặp thẻ <style></style>
+- external: css ở trong file .css và nhúng vào HTML bằng thẻ link
+
+DIV: division - chia bố cục trang web
+
+margin: 
+padding:
+
+JavaScript
+- Tăng tương tác với trang web
+  - Thay đổi nội dung
+  - Thay đổi hiển thị
+
+  - Trỏ được đến thẻ html cần tương tác
+    - document.getElementById("ten_id");

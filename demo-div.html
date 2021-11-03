@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #head{
+        height: 200px;
+        width: 100%;
+        /* background-color: orange; */
+    }
+
+    #main{
+        height: 800px;
+        width: 100%;
+        background-color: palegreen;
+    }
+
+    .inner-head{
+        width: 33.3%;
+        height: 100%;
+        /* float: left; */
+        /* display: inline-block; */
+        float: left;
+        /* margin: 10px 20px 30px 40px; */
+        /* margin: 10px 20px 30px; */
+        /* margin: 10px 20px; */
+        /* margin: 10px; */
+
+        /* padding: 30px 40px 50px 60px; */
+        /* padding: 30px 40px; */
+        /* padding-left: 30px;
+        padding-top: 30px; */
+        box-sizing: border-box;
+    }
+    #head-1{
+        /* background-color: palevioletred; */
+    }
+
+    #head-2{
+        /* background-color: blue; */
+    }
+
+    #head-3{
+        background-color: seagreen;
+    }
+    img{
+        height: 100%;
+        border-radius: 50%;
+    }
+    #nen-anh{
+        width: 210px;
+        height: 210px;
+        background-color: orange;
+        border-radius: 50%;
+        padding: 25px;
+    }
+
+    /* .inner-head:nth-child(1){
+        background-color: black;
+    } */
+</style>
+<body>
+    <div id="head">
+        <div class="inner-head" id="head-1">
+            <div id="nen-anh">
+                <img src="avt.jpeg" alt="">
+            </div>
+            
+        </div>
+        <div class="inner-head" id="head-2">
+            <h2 id="ten" style="color: orange;">Lê Thành</h2>
+            <ul>
+                <li>19/09/1999</li>
+                <li>lethanh@gmail.com</li>
+                <li>Hà Nội</li>
+            </ul>
+        </div>
+        <div class="inner-head" id="head-3">
+            Đây là thông tin 2
+        </div>
+    </div>
+    <!-- <div id="main"></div> -->
+    <button onclick='doiTen()'>Đây là cái nút</button>
+</body>
+<script>
+    function doiTen(){
+        // document.getElementById("ten").innerText = "<i>Lê Văn Thành</i>";
+        document.getElementById("ten").innerHTML = "<i>Lê Văn Thành</i>";
+        document.getElementById("ten").style.color = "green";
+    }
+</script>
+</html>

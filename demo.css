@@ -1,0 +1,13 @@
+/* Tên thẻ */
+h1,h2{
+    color: green;
+}
+/* ID */
+#abc{
+    color: blue;
+}
+
+/* Class */
+.nhom{
+    color: red;
+}
